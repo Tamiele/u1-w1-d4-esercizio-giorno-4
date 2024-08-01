@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,400;1,700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
 
     <title>Sviluppo di una pagina web-Blog Epicode</title>
@@ -33,24 +33,35 @@
         </ul>
       </header>
       <main class="main">
-        <h2>Come creare un Template per un Blog</h2>
-        <h4>di Mario Rossi - pubblicato il 25-10-2020</h4>
-        <p>
-          La Prima cosa da fare sarà suddividere in blocchi logici la pagina, identificando le parti
-          comuni da applicare a tutte le pagine.
+        <div class="titolo">
+          <h2>Come creare un Template per un Blog</h2>
+          <h4>
+            <i class="fas fa-pen-square"></i> di Mario Rossi -
+            <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+          </h4>
+        </div>
+        <p class="paragrafo-uno">
+          La Prima cosa da fare sarà suddividere in blocchi logici la pagina, identificando le
+          <span class="testo-p">parti comuni</span> da applicare a tutte le pagine.
         </p>
-        <p>Le varie aree saranno quindi suddivise in:</p>
-        <ul>
-          <li>contenuti di intestazione tag &lt; header &gt;</li>
-          <li>contenuti centeali variabili del tag &lt; main &gt; &#40; corpo principale &#41;</li>
-          <li>contenuti di fine pagina comuni, da inserire nel tag &lt; footer &gt;</li>
+        <span>Le varie aree saranno quindi suddivise in:</span>
+        <ul class="ul">
+          <li>contenuti di intestazione tag <span class="sfondo-g">&lt;header&gt;</span></li>
+          <li>
+            contenuti centeali variabili del tag
+            <span class="sfondo-g">&lt;main&gt;</span> &#40;corpo principale&#41;
+          </li>
+          <li>
+            contenuti di fine pagina comuni, da inserire nel tag
+            <span class="sfondo-g">&lt;footer&gt;</span>
+          </li>
         </ul>
         <h4>Formattazione del codice</h4>
         <p>
           Il testo dell'articolo dovrà essere formattato per identificare tutte le partida
-          selezionare con il CSS. Perciò i passi saranno:
+          <span class="testo-p">selezionare con il CSS.</span> Perciò i passi saranno:
         </p>
-        <ol>
+        <ol class="ol">
           <li>Progettare il Markup assegnando ad ogni specifico testo il tag appropriato</li>
           <li>Scrivere l' HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
           <li>Applicare gli stili CSS</li>
@@ -61,7 +72,7 @@
         </p>
 
         <div>
-          <table>
+          <table class="tabella">
             <caption>
               Diffusione dei CSS
             </caption>
@@ -98,12 +109,13 @@
           </table>
           <p>
             Un test di Validazione potrà essere effettuato tramite un
-            <a href="https://jigsaw.w3.org/css-validator/">tool online</a> dedicato allo scopo. Una
-            volta ottimizzato il tutto, avremmo raggiunto il nostro obiettivo ed essere stati dei
-            veri developers come loro:
+            <a class="colore-a" href="https://jigsaw.w3.org/css-validator/">tool online</a> dedicato
+            allo scopo. Una volta ottimizzato il tutto, avremmo raggiunto il nostro obiettivo ed
+            essere stati dei veri developers come loro:
           </p>
         </div>
         <iframe
+          class="video"
           width="100%"
           src="https://www.youtube.com/embed/aBSZVeBRvDY?si=HwTU0uD0tGQrQQbq"
           title="YouTube video player"
