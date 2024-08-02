@@ -31,8 +31,11 @@
   margin: 1rem;
   font-weight: 600;
 }
-.header ul li {
+.header ul li a {
   margin: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 /* MAIN */
 .main {
@@ -107,4 +110,8 @@ caption {
   background: rgb(51, 57, 54);
   background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
   color: white;
+  font-weight: 600;
+}
+.footer h4 {
+  margin-block: 1 rem;
 }
