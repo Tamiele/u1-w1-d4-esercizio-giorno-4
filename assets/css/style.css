@@ -6,6 +6,7 @@
   font-family: "Poppins";
   font-weight: 400;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 /* HEADER */
 .header {
@@ -80,13 +81,30 @@
 }
 
 /* TABELLE */
-caption {
-  font-style: italic;
-  font-weight: 600;
-}
+
 .tabella {
   margin-block: 10px;
   border-bottom: solid #4066c0;
+  width: 100%;
+  text-align: center;
+}
+
+.tabella caption {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.int {
+  background-color: #4066c0;
+  color: white;
+}
+.int-2 {
+  padding: 1rem;
+}
+.box {
+  background-color: #f2f2f2;
+  border-bottom: solid #e1e1e272;
+  border-top: solid #e1e1e272;
 }
 
 .colore-a {
@@ -96,9 +114,58 @@ caption {
   border-radius: 15px;
   margin-block: 1rem;
 }
+
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
+.aside {
+  background-color: #e1e5e6;
+  padding: 1rem;
+}
+.aside h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-block: 1rem;
+  text-align: center;
+}
+.aside p {
+  margin-bottom: 12px;
+  padding-inline: 16px;
+}
+.aside input {
+  padding-block: 7px;
+  border: none;
+  border-bottom: dashed thin;
+  margin-left: 16px;
+  padding-left: 5px;
+}
+.bottone {
+  background-color: #4066c0;
+  color: white;
+  border: none;
+  padding-block: 6px;
+  font-weight: 600;
+}
+#h4 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-block: 1rem;
+}
+.box-2 {
+  background-color: #e1e5e6;
+  padding: 1rem;
+  border: solid #aaa;
+  margin-block: 1rem;
+}
+.box-2 a {
+  color: #009ecc;
+  font-weight: 600;
+}
+.calendario {
+  text-align: right;
+  padding: 1rem;
+}
 
 /* FOOTER */
 .footer {
@@ -110,8 +177,10 @@ caption {
   background: rgb(51, 57, 54);
   background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
   color: white;
-  font-weight: 600;
 }
 .footer h4 {
-  margin-block: 1 rem;
+  margin-block: 1rem;
+}
+.footer a {
+  color: #ff00fe;
 }
