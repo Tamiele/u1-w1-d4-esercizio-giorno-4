@@ -325,3 +325,8 @@ body {
     margin-block: 2rem;
   }
 }
+@media print {
+  .video {
+    display: none;
+  }
+}
